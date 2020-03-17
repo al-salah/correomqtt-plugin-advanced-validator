@@ -1,7 +1,7 @@
-package com.exxeta.correomqtt.plugin.validator;
+package org.correomqtt.plugin.validator;
 
-import com.exxeta.correomqtt.plugin.manager.PluginSystem;
-import com.exxeta.correomqtt.plugin.spi.MessageValidatorHook;
+import org.correomqtt.plugin.manager.PluginSystem;
+import org.correomqtt.plugin.spi.MessageValidatorHook;
 import org.jdom2.Element;
 import org.pf4j.Extension;
 
