@@ -29,6 +29,13 @@
             <groupId>org.correomqtt</groupId>
             <artifactId>correomqtt-client</artifactId>
             <version>0.10.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.pf4j</groupId>
+            <artifactId>pf4j</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
