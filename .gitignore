@@ -23,5 +23,5 @@
 hs_err_pid*
 
 target
-.idea
-AdvancedValidator.iml
+.idea/
+*.iml

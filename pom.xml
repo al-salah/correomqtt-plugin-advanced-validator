@@ -6,7 +6,7 @@
 
     <groupId>org.correomqtt.plugin.advanced-validator</groupId>
     <artifactId>AdvancedValidator</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,7 +16,7 @@
 
         <plugin.id>advanced-validator-plugin</plugin.id>
         <plugin.class />
-        <plugin.version>0.0.1</plugin.version>
+        <plugin.version>0.0.2</plugin.version>
         <plugin.provider>EXXETA AG</plugin.provider>
         <plugin.description>Advanced message validation with and + or conjunctions</plugin.description>
         <plugin.requires/>
@@ -29,6 +29,13 @@
             <groupId>org.correomqtt</groupId>
             <artifactId>correomqtt-client</artifactId>
             <version>0.10.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.pf4j</groupId>
+            <artifactId>pf4j</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
